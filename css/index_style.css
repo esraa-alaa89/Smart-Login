@@ -1,0 +1,121 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+a{
+    color: #fff !important;
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.alert{
+    text-align: center;
+    margin-bottom: 20px !important;
+    border-radius: 35px; 
+}
+/* BG IMAGE */
+main{
+    background-image: url(../images/background-pic.jpg);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+/* NAVIGATION-BAR */
+ul li{
+    margin-right: 10px;
+}
+nav ul li a.active {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 0.5rem 1.5rem !important;
+    color: #fff;
+}
+
+/* Home SECTION */
+.sign-box{
+    margin: 6em auto;
+}
+.main-content {
+    padding: 0em 4em;
+    margin: 0 1em;
+    position: relative;
+    z-index: 1;
+}
+.email-container, .password-container, .name-container{
+    background: rgba(255, 255, 255, 0.15);
+    margin-bottom: 20px;
+    padding: 2px 10px 2px 20px;
+    border-radius: 35px;
+}
+form .email-container input:focus, form .password-container input:focus, 
+form .name-container input:focus {
+    border: none !important;
+    background: transparent !important;
+}
+.email-container input, .password-container input, .name-container input {
+    color: #ddd;
+    padding: 10px 0 10px 15px;
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    border: none;
+    background: transparent;
+    font-family: 'Mukta', sans-serif;
+}
+.email-container input::placeholder, .password-container input::placeholder, 
+.name-container input::placeholder {
+    color: #ddd;
+}
+
+
+/* buttons */
+.login-btn button, .register-btn button, .help-btn button{
+    background: #EEE7DA;
+    border: none;
+    border-radius: 35px;
+    color: #88AB8E;
+    padding: 11px 15px;
+    text-transform: uppercase;
+    font-family: 'Mukta', sans-serif;
+    font-size: 16px;
+    margin: 15px 0;
+    letter-spacing: 2px;
+    cursor: pointer;
+    width: 100%;
+    transition: all 1s;
+}
+.register-btn button{
+    background: #F2F1EB;
+}
+.login-btn button:hover, .register-btn button:hover{
+    background: #88AB8E;
+    color: #EEE7DA;
+}
+.help-btn button{
+    background: #557C55;
+    color: #EEE7DA;
+    width: 40%;
+    margin-bottom: 40px;
+}
+.help-btn button:hover{
+    box-shadow: 0 0 0 4px #88AB8E;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+::selection{
+    background-color: #88AB8E;
+    color: #F2F1EB !important;
+    box-shadow: none;
+}

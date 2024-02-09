@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart-Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya&family=Alegreya+Sans:wght@300;400&family=Dancing+Script:wght@500&family=Encode+Sans+Semi+Expanded&family=Montserrat+Alternates:ital,wght@0,300;0,400;0,500;0,600;1,300;1,500&family=Montserrat+Subrayada:wght@700&family=Montserrat:ital,wght@0,500;0,700;1,700&family=Mukta:wght@300&family=Noto+Sans&family=Pacifico&family=Poppins&family=Righteous&family=Source+Sans+3:wght@300;400&family=Xanh+Mono:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="boot/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/index_style.css">
+</head>
+<body>
+    <!-- index.html --- login page -->
+    <main>
+
+        <!-- NAVIGATION-BAR SECTION -->
+        <nav class="navbar navbar-expand-lg bg-transparent">
+            <div class="container">
+                <h1>
+                    <a class="navbar-brand" href="#">
+                        <span class="fa fa-key"></span> Key</a>
+                </h1>
+                
+    
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span><i class="fa-solid fa-list"></i></span>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Login</a>
+                        </li>                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About us</a>
+                        </li>                       
+                        <li class="nav-item">
+                            <a class="nav-link" href="#register">Register</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Home SECTION -->
+        <section class="sign-box col-lg-8 mx-auto">
+            <div class="home-icon text-center">
+                <i class="fa-solid fa-user mb-3 fa-5x text-white m-auto text-center"></i>
+            </div>
+
+            <div class="main-content col-lg-8 mx-auto">
+
+                <form action="">
+                    <div class="name-container text-white d-none">
+                        <span class="fa fa-user"></span>
+                        <input class="userName-input" type="text" name="" id="" placeholder="Enter your name">
+                    </div>
+
+                    <div class="name-alert alert alert-danger py-1 d-none" role="alert">
+                        Name must start with capital letters and may contains space
+                    </div>
+
+                    <div class="email-container text-white">
+                        <span class="fa fa-user"></span>
+                        <input class="userEmail-input" type="email" name="" id="" placeholder="Enter your email">
+                    </div>
+
+                    <div class="email-alert alert alert-danger py-1 d-none" role="alert">
+                        Email must contain letters, digits and '@gmail || yahoo.com'
+
+                    </div>
+    
+                    <div class="password-container text-white">
+                        <span class="fa fa-lock"></span>
+                        <input class="userPassword-input" type="password" name="" id="" placeholder="Enter your password">
+                    </div>
+
+                    <div class="password-alert alert alert-danger py-1 d-none" role="alert">
+                        Password must be at least 8 stron charecters
+                    </div>
+
+                    <div class="allInputs-alert alert alert-danger py-1 d-none" role="alert">
+                        All inputs are required!
+                    </div>
+
+                    <div class="login-btn">
+                        <button>Login</button>
+                    </div>
+
+                    <div class="register-btn">
+                        <button>
+                            Create New Account 
+                            <i class="fa-regular fa-face-smile-beam"></i>
+                        </button>
+                    </div>
+
+                    <div class="help-btn text-center">
+                        <button>
+                            Need Help! 
+                            <i class="fa-solid fa-handshake-angle"></i>
+                        </button>
+                    </div>
+                </form>
+                
+            </div>
+        </section>
+
+    </main>
+    
+   
+    <script src="boot/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="js/mine.js"></script>
+</body>
+</html>
